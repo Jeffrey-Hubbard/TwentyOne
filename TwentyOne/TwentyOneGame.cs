@@ -190,6 +190,7 @@ namespace TwentyOne
                 if (answer == "yes" || answer == "y")
                 {
                     player.IsActivelyPlaying = true;
+                    return;
                 }
                 else
                 {
