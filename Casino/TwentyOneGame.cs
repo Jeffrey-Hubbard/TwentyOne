@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TwentyOne
+namespace Casino.TwentyOne
 {
     public class TwentyOneGame : Game, IWalkAway
     {
@@ -162,7 +162,8 @@ namespace TwentyOne
                     }
                     else
                     {
-                         player.IsActivelyPlaying = false;
+                        player.IsActivelyPlaying = false;
+                        return;
                     }
                 }
             }
